@@ -4,7 +4,7 @@
 # pipwin install pyaudio - pip install pyaudio
 from cgitb import text
 import speech_recognition as sr
-
+#essa biblioteca reconhece frases precisando do silencio no início e no fim do código para que ela reconheça o inicio e o fim da frase
 
 rec = sr.Recognizer()
 
